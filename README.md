@@ -1,7 +1,7 @@
 # learning-records-of-a-freshman
 just record something that I have
 learned everyday as a freshman
-
+# 配置Anaconda环境遇到的问题
 2020年7月27日
 问题：在创建conda环境的时候报错
 Fetching package metadata .......
@@ -31,7 +31,7 @@ channels:
   - conda-forge
 show_channel_urls: true
 #2、删除部分内容
-## 主要是删除此行： - defaults
+#主要是删除此行： - defaults
 ps:如何删除： conda config --remove channels defaults
 #修改后配置文件的内容如下：
 vim ~/.condarc
@@ -41,7 +41,7 @@ channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
 show_channel_urls: true
 
-
+# 在linux创建新用户遇到问题
 2020年7月26日
 问题1：重新在linux中创建新用户时报错
 /usr/bin/xauth: file /home/chenwi/.Xauthority does not exist
